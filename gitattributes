@@ -1,0 +1,29 @@
+# Marque les fichiers Swift comme du texte
+*.swift text
+
+# Marque les fichiers Objective-C comme du texte
+*.m text
+*.h text
+
+# Marque les fichiers de storyboard et xib comme du texte pour éviter les problèmes de fin de ligne
+*.storyboard text merge
+*.xib text merge
+
+# Marque les fichiers JSON comme du texte
+*.json text
+
+# Marque les fichiers de configuration comme du texte
+*.plist text
+*.pbxproj text
+
+# Marque les fichiers d'image comme binaires pour éviter les conflits de fusion
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Marque les fichiers de documentation comme du texte
+*.md text
+
+# Marque les fichiers de projet Xcode (ne pas traiter les fins de ligne)
+*.xcodeproj/* text eol=lf
+*.xcworkspace/* text eol=lf
